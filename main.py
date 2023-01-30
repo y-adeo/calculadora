@@ -1,4 +1,8 @@
-import tkinter as tk
+from calculator_factories import make_root
 
-root = tk.Tk()
+def main():
+    root = make_root()
+    root.mainloop()
 
+if __name__ == '__main__':
+    main()
